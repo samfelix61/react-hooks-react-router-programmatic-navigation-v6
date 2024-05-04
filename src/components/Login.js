@@ -15,6 +15,7 @@ function Login() {
 
   function handleLogin(e) {
     e.preventDefault();
+    Login();
   }
 
   return (
